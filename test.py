@@ -38,4 +38,4 @@ class test(Resource):
 }
         
 api.add_resource(test, '/test')
-app.run(debug=False)
+app.run(host='0.0.0.0', debug=False)
